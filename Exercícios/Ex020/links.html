@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+        :  = pseudo-class
+        :: = pseudo-elements
+        >  = children 
+        
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkorange;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: green;
+        }
+
+        a::after {
+            content:'[Link]';
+            text-decoration: none;
+            font-weight: bold;
+            color: darkmagenta;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.kabum.com.br" target="_blank">Kabum</a></li>
+        <li> <a href="https://www.mercadolivre.com.br">Mercado Livre</a></li>
+        <li> <a href="https://www.nike.com.br">Nike</a></li>
+
+
+
+    </ul>
+</body>
+</html>
