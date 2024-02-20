@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+
+        tbody > tr:nth-child(2n) 
+        /* Efeito zebra = odd = ímpar (2n-1) / even = par (2n) */  {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+        CAPTION
+            THEAD
+                TR,TD,TH
+            TBODY
+                TR,TD,TH
+            TFOOT
+                TR,TD,TH    
+
+
+    -->
+
+    <table>
+        <caption>
+            População Região Sudeste
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>São Paulo
+                <td>44 411 238
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td>20 538 718</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>16 054 524</td>
+            </tr>
+
+            <tr>
+                <td>Espírito Santo</td>
+                <td>3 833 712</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Toltal de Habitantes</th>
+                <td>84 847 187	</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, magnam facere. Quo, aperiam, id placeat nemo reprehenderit aliquid asperiores soluta suscipit impedit praesentium quia, maiores porro dolore dolorem eveni
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore harum, reprehenderit tenetur quos explicabo iste. Consectetur cumque at tempore numquam quos voluptate veniam qui tenetur consequuntur voluptatem quibusdam, accusantium obcaecati.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ea placeat laborum blanditiis error nostrum neque. Consequuntur tenetur quisquam temporibus maxime labore, atque, maiores obcaecati itaque quia deleniti blanditiis nemo!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellat aliquam veritatis minima reiciendis dolor deserunt ipsum quas porro delectus perspiciatis adipisci sit saepe repellendus, explicabo eos dolorum corpori
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, rerum. Cum, eaque doloremque aut nobis rem quae culpa dolor possimus autem nostrum repudiandae excepturi quod nulla sequi illum aliquam repellendus!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dicta, nesciunt et blanditiis corporis tempora quod natus quasi voluptates dolorum at illo doloribus necessitatibus saepe vitae eum dolores ab. Repellat!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit commodi voluptatem enim quaerat dolore culpa ducimus possimus. Architecto labore quia officia non tempore, neque dolorem placeat. Explicabo, rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, voluptatem distinctio aliquid nesciunt porro, mollitia corrupti, tempore velit doloremque maxime aliquam eius? Praesentium suscipit quisquam necessitatibus ipsum, ipsam deleniti sequi!
+    ipsum quas porro delectus perspiciatis adipisci sit saepe repellendus, explicabo eos dolorum corpori
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, rerum. Cum, eaque doloremque aut nobis rem quae culpa dolor possimus autem nostrum repudiandae excepturi quod nulla sequi illum aliquam repellendus!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dicta, nesciunt et blanditiis corporis tempora quod natus quasi voluptates dolorum at illo doloribus necessitatibus saepe vitae eum dolores ab. Repellat!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit commodi voluptatem enim quaerat dolore culpa ducimus possimus. Architecto labore quia officia non tempore, neque dolorem placeat. Explicabo, rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, voluptatem distinctio aliquid nesciunt porro, mollitia corrupti, tempore velit doloremque maxime aliquam eius? Praesentium suscipit quisquam necessitatibus ipsum, ipsam deleniti sequi!
+    ipsum quas porro delectus perspiciatis adipisci sit saepe repellendus, explicabo eos dolorum corpori
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, rerum. Cum, eaque doloremque aut nobis rem quae culpa dolor possimus autem nostrum repudiandae excepturi quod nulla sequi illum aliquam repellendus!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dicta, nesciunt et blanditiis corporis tempora quod natus quasi voluptates dolorum at illo doloribus necessitatibus saepe vitae eum dolores ab. Repellat!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit commodi voluptatem enim quaerat dolore culpa ducimus possimus. Architecto labore quia officia non tempore, neque dolorem placeat. Explicabo, rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, voluptatem distinctio aliquid nesciunt porro, mollitia corrupti, tempore velit doloremque maxime aliquam eius? Praesentium suscipit quisquam necessitatibus ipsum, ipsam deleniti sequi!
+    ipsum quas porro delectus perspiciatis adipisci sit saepe repellendus, explicabo eos dolorum corpori
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, rerum. Cum, eaque doloremque aut nobis rem quae culpa dolor possimus autem nostrum repudiandae excepturi quod nulla sequi illum aliquam repellendus!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dicta, nesciunt et blanditiis corporis tempora quod natus quasi voluptates dolorum at illo doloribus necessitatibus saepe vitae eum dolores ab. Repellat!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit commodi voluptatem enim quaerat dolore culpa ducimus possimus. Architecto labore quia officia non tempore, neque dolorem placeat. Explicabo, rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, voluptatem distinctio aliquid nesciunt porro, mollitia corrupti, tempore velit doloremque maxime aliquam eius? Praesentium suscipit quisquam necessitatibus ipsum, ipsam deleniti sequi!
+    ipsum quas porro delectus perspiciatis adipisci sit saepe repellendus, explicabo eos dolorum corpori
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. At, rerum. Cum, eaque doloremque aut nobis rem quae culpa dolor possimus autem nostrum repudiandae excepturi quod nulla sequi illum aliquam repellendus!
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum dicta, nesciunt et blanditiis corporis tempora quod natus quasi voluptates dolorum at illo doloribus necessitatibus saepe vitae eum dolores ab. Repellat!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem suscipit commodi voluptatem enim quaerat dolore culpa ducimus possimus. Architecto labore quia officia non tempore, neque dolorem placeat. Explicabo, rerum Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, voluptatem distinctio aliquid nesciunt porro, mollitia corrupti, tempore velit doloremque maxime aliquam eius? Praesentium suscipit quisquam necessitatibus ipsum, ipsam deleniti sequi!
+</body>
+</html>
