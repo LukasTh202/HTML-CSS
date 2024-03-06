@@ -1,4 +1,4 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -20,16 +20,17 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
-    padding: 0%;
 
 }
 
 i#burguer {
     background-color: rgb(51, 51, 51);
     color: white;
+    display: block;
     text-align: center;
     padding: 10px;
-    display: block;
+    cursor: pointer;
+
 }
 
 i#burguer:hover {
@@ -38,7 +39,6 @@ i#burguer:hover {
 }
 menu {
     display: none;
-    padding: 0%;
 }
 
 menu > ul {
@@ -63,6 +63,7 @@ main {
     width: 90vw;
     background-color: white;
     margin: auto;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -73,6 +74,6 @@ article > h2 {
 
 article > p {
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-indent: 20px;
 }
